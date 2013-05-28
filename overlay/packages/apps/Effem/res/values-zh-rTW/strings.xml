@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Effem收音機</string>
+    <string name="band_select">選擇地區／頻譜</string>
+    <string name="band_us">美洲</string>
+    <string name="band_eu">歐洲</string>
+    <string name="band_ja">日本</string>
+    <string name="band_ch">中國</string>
+    <string name="station_select">喜好</string>
+    <string name="output_select">音頻輸出</string>
+    <string name="output_select_default">自動</string>
+    <string name="output_select_loudspeaker">擴音器</string>
+    <string name="fmradio">FM 廣播</string>
+    <string name="dashes">- - - -</string>
+    <string name="no_rds">沒有RDS</string>
+    <string name="no_stations">未儲存任何頻道</string>
+    <string name="scan_error">無法掃描頻道</string>
+    <string name="fm_start_error">無法啟用接收組件</string>
+    <string name="seek_error">搜尋失敗</string>
+    <string name="resume_error">無法續播</string>
+    <string name="pause_error">無法暫停</string>
+    <string name="busy_error">系統繁忙中, 請稍後再試</string>
+    <string name="no_headset_error">請先連接耳機</string>
+    <string-array name="pty_names">
+        <item>未分類</item>
+        <item>新聞</item>
+        <item>時事</item>
+        <item>資訊</item>
+        <item>體育</item>
+        <item>教育</item>
+        <item>廣播劇</item>
+        <item>文化</item>
+        <item>科學</item>
+        <item>綜合</item>
+        <item>流行</item>
+        <item>搖滾</item>
+        <item>輕鬆</item>
+        <item>近代古典</item>
+        <item>古典</item>
+        <item>其他</item>
+        <item>天氣</item>
+        <item>財經</item>
+        <item>孩子</item>
+        <item>社會時事</item>
+        <item>宗教</item>
+        <item>聽眾來電</item>
+        <item>旅遊</item>
+        <item>消閒</item>
+        <item>爵士樂</item>
+        <item>國家</item>
+        <item>環球</item>
+        <item>懷舊</item>
+        <item>鄉村</item>
+        <item>紀錄</item>
+        <item>响鬧測試</item>
+        <item>响鬧</item>
+    </string-array>
+</resources>
