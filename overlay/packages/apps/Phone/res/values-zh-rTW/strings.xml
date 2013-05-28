@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--    <string name="phone_number_label">本機號碼</string>
+    <string name="phone_number_summary">設定本機號碼</string> -->
+
+    <string name="perm_change_mobile_network">切換行動網路（2G／3G）</string>
+    <string name="perm_change_mobile_network_desc">被授予此權限的應用程式能夠於任何時候在 2G 及 3G 行動網路之間進行切換。使用 3G 行動網路取存資料的速度會比較快，但相對的會消耗較多的電池電量，亦會令您花費較多的金錢。</string>
+
+    <string name="exit_to_home_screen_title">掛電話時直接返回桌面</string>
+    <string name="exit_to_home_screen_summary">掛電話時直接返回桌面而不是通話記錄</string>
+
+    <string name="national_roaming">境內數據漫游</string>
+    <string name="national_roaming_enable">境內漫游時允許連接數據服務</string>
+    <string name="national_roaming_disable">停用境內數據漫游連接</string>
+
+    <!-- Dialer UI Settings -->
+    <string name="dialer_ui_settings_title">撥號盤設置</string>
+    <string name="dialer_ui_settings_summary">關於撥號盤設置</string>
+
+    <string name="vibration_title">來電振動提示</string>
+
+    <string name="ring_delay_title">鈴聲延時</string>
+    <string name="ring_delay_summary">選擇來電鈴聲延時值</string>
+    <string name="exit_to_home_screen_title">掛電話時直接返回桌面</string>
+    <string name="exit_to_home_screen_summary">掛電話時直接返回桌面而不是通話記錄</string>
+
+    <!-- Ring Delay entries.  -->
+    <string-array name="ring_delay_entries">
+        <item>停用鈴聲延時</item>
+        <item>3 秒</item>
+        <item>6 秒</item>
+        <item>9 秒</item>
+    </string-array>
+
+	<string name="landscape_mode_title">橫向通話介面</string>
+    <string name="landscape_mode_summary">啟用橫向通話介面（需要感應器）</string>
+
+    <string name="callUnanswered_forwarded">未接來電或已轉接號碼</string>
+    <string name="card_title_waiting_call">等候中的來電</string>
+    <string name="call_notif_unconditionalCF">無條件轉接已生效</string>
+    <string name="call_notif_conditionalCF">有條件轉接已生效</string>
+    <string name="call_notif_MOcall_forwarding">去電已被轉接</string>
+    <string name="call_notif_calliswaiting">對方線路繁忙,請等待</string>
+    <string name="call_notif_cugcall">用戶組已關閉</string>
+    <string name="call_notif_outgoing_barred">禁止撥出號碼</string>
+    <string name="call_notif_incoming_barred">禁止所有來電</string>
+    <string name="call_notif_clir_suppression_rejected">網絡供應商已拒絕你的號碼繼續使用網絡服務</string>
+    <string name="call_notif_call_deflected">對方已轉接你的號碼</string>
+    <string name="call_notif_MTcall_forwarding">來電已轉接</string>
+    <string name="call_notif_multipartycall">多方通話</string>
+    <string name="call_notif_callonhold_released">通話已從暫停恢復,對方將再接聽你的電話</string>
+    <string name="call_notif_forwardcheckreceived">撥號已被轉接</string>
+    <string name="call_notif_callconnectingect">電話正轉接到對方指定號碼中</string>
+    <string name="call_notif_callconnectedect">電話轉接後已被接通</string>
+    <string name="incall_call_type_label_forwarded">轉接來電</string>
+    <string name="show_ssn_label">顯示通知內容</string>
+    <string name="show_ssn_summary">顯示與撥號處理的相關提示</string>
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">反轉動作</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">反轉手機將會:\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">反轉手機將會 <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Entries listed in the setting for the flip action. -->
+    <string-array name="flip_action_setting_entries">
+        <item>沒有任何動作</item>
+        <item>來電鈴聲靜音</item>
+        <item>掛斷電話</item>
+    </string-array>
+
+    <!-- Summary texts for flip action. Must be ordered by numerical
+         value (do nothing = 0, mute = 1, dismiss = 2) -->
+    <string-array name="flip_action_summary_entries">
+        <item>沒有任何動作</item>
+        <item>來電鈴聲靜音</item>
+        <item>掛斷電話</item>
+    </string-array>
+
+    <string name="calllog_after_call">通話結束後到統計頁面</string>
+    <string name="calllog_after_call_summary">通話後顯示通話統計記錄</string>
+
+    <!-- RootBox Missed Call Breath
+    <string name="missed_call_breath">閃爍提示圖示</string>
+    <string name="missed_call_breath_summary">未接來電會在狀態欄用閃爍圖示.</string> -->
+
+    <string name="rejected_as_missed">拒接來電視為未接</string>
+    <string name="rejected_as_missed_sum">在通話記錄中將拒接來電標示為 \'未接\' 而非 \'來電\'</string>
+
+    <!-- Blacklist feature -->
+    <string name="blacklist_title">拒接來電</string>
+    <string name="enable_blacklist_title">啟用拒接來電名單</string>
+    <string name="blacklist_summary_disabled">關閉</string>
+    <string name="blacklist_summary">自動掛斷所有來自拒接名單上的號碼</string>
+    <string name="blacklist_notify">顯示通知欄提示</string>
+    <string name="blacklist_private_numbers_title">私人號碼</string>
+    <string name="blacklist_private_numbers_summary">自動掛斷所有私人號碼</string>
+    <string name="blacklist_unknown_numbers_title">沒有來電顯示號碼</string>
+    <string name="blacklist_unknown_numbers_summary">自動掛斷所有沒有來電顯示號碼</string>
+    <string name="blacklist_regex_title">使用通配符號</string>
+    <string name="blacklist_regex_summary">使用 "." 號作為通配符號, "*" 號則標記重複. 例如 "123.*" 阻擋所有以 123 開始號碼, 使用 ".*123.*" 則掛斷所有包含"123"的號碼</string>
+
+    <!-- Blacklist management -->
+    <string name="add_blacklist_number">新增號碼</string>
+    <string name="add_to_blacklist">新增來電拒接號碼</string>
+    <string name="add_to_blacklist_message">所有來自 %s 來電將會被拒絕</string>
+    <string name="remove_blacklist_number_title">移除號碼</string>
+    <string name="remove_blacklist_number">是否確認將 %s 從拒接號碼中移除?</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">已拒接%s的來電</string>
+    <string name="blacklist_notification_private_number">拒接了一個私人號碼</string>
+    <string name="blacklist_notification_list_private">私人號碼</string>
+    <string name="blacklist_notification_unknown_number">拒接沒有來電顯示號碼 %s</string>
+    <string name="blacklist_notification_multiple">已拒接<xliff:g id="count">%d</xliff:g>個沒有來電顯示號碼</string>
+
+    <string name="unblock_number">從拒接名單中移除</string>
+
+    <!-- Text for the onscreen "Blacklist" button -->
+    <string name="onscreenBlacklistText">拒接號碼</string>
+
+</resources>
