@@ -37,6 +37,20 @@ PRODUCT_PACKAGES += \
     sensors.blade \
     BladeParts
 
+# Custom Package
+PRODUCT_PACKAGES += \
+        AppWidgetPicker \
+        Apollo \
+        DashClock
+
+# Custom Package for AOKP REMIX
+PRODUCT_PACKAGES += \
+      PermissionsManager \
+      ROMControl \
+      Stk \
+      SwagPapers \
+
+
 # Power HAL
 PRODUCT_PACKAGES += \
     power.msm7x27
