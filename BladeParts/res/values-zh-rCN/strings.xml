@@ -13,4 +13,5 @@
     <string name="delete_error">重置为默认值时失败.</string>
     <string name="delete_no_file">已经使用默认值.</string>
     <string name="usb_charging_title_head">USB 充电</string>
+    <string name="button_backlight_title_head">硬件键后台灯</string>
 </resources>

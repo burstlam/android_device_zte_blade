@@ -13,4 +13,5 @@
     <string name="delete_error">無法回復至預設值。</string>
     <string name="delete_no_file">現正使用的已經是預設值。</string>
     <string name="usb_charging_title_head">USB 充電</string>
+    <string name="button_backlight_title_head">硬體鍵背景燈</string>
 </resources>
