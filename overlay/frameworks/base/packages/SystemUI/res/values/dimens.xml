@@ -21,10 +21,10 @@
     <dimen name="drag_handle_height">15dp</dimen>
 
         <!-- The fixed width of traditional toggles -->
-    <dimen name="toggle_traditional_width">60dp</dimen>
+    <dimen name="toggle_traditional_width">48dp</dimen>
 
      <!-- The fixed height of traditional toggles -->
-    <dimen name="toggle_traditional_height">60dp</dimen>
+    <dimen name="toggle_traditional_height">48dp</dimen>
 
     <!-- The fixed height of traditional toggles -->
     <dimen name="toggle_traditional_padding">2dp</dimen>
