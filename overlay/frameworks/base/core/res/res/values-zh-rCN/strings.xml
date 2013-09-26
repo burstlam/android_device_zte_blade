@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- When the lock screen is showing and the battery is low, warn user to plug
+         in the phone soon. -->
+    <string name="lockscreen_low_battery">请连接充电器.</string>
+    <!-- Showing the Battery % while not plugged in. -->
+    <string name="lockscreen_always_battery">放电中, 剩下:<xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="lockscreen_always_low_battery">连接充电器,已完成: <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    <!-- Reboot -->
+    <string name="reboot">重新启动</string>
+
+    <!-- Reboot recovery option -->
+    <string name="reboot_recovery">恢复模式</string>
+
+    <!-- Reboot recovery option -->
+    <string name="reboot_download">刷机模式</string>
+
+    <!-- Reboot recovery option -->
+    <string name="reboot_bootloader">引导模式</string>
+
+    <string name="reboot_hot">热重启</string>
+
+    <string name="reboot_progress">您的设备正在重新启动...</string>
+
+    <string name="global_actions_toggle_expanded_desktop_mode">全屏模式</string>
+    <string name="global_actions_expanded_desktop_mode_on_status">启用</string>
+    <string name="global_actions_expanded_desktop_mode_off_status">关闭</string>
+
+    <string name="global_action_screenshot">屏幕截图</string>
+
+    <string name="global_actions_toggle_navbar_hide">导航栏控制台</string>
+
+	<string name="global_action_torch">手电筒</string>
+
+    <string name="openurl">打开 Url</string>
+
+
+    <!--CyanogenMod Profiles -->
+    <!-- Names of default profiles. -->
+    <string name="profileNameDefault">默认</string>
+    <string name="profileNameWork">工作</string>
+    <string name="profileNameHome">住宅</string>
+    <string name="profileNameSilent">静音</string>
+    <string name="profileNameNight">夜晚</string>
+
+    <!-- Names of application groups. -->
+    <string name="profileGroupPhone">电话</string>
+    <string name="profileGroupCalendar">日历</string>
+    <string name="profileGroupGmail">Gmail</string>
+    <string name="profileGroupEmail">电子邮件</string>
+    <string name="profileGroupSMS">短信</string>
+
+    <!-- Name of wildcard profile. -->
+    <string name="wildcardProfile">其他</string>
+
+    <!-- label for item that opens the profile choosing dialog -->
+    <string name="global_action_choose_profile">情景模式</string>
+
+    <string name="app_killed_message">程序已经清除</string>
+
+    <!-- Awesome Action Stuff-->
+    <string name="action_home">主页</string>
+    <string name="action_back">返回</string>
+    <string name="action_recents">最近任务</string>
+    <string name="action_recents_gb">最近任务 (姜饼风格)</string>
+    <string name="action_search">寻找</string>
+    <string name="action_screenshot">截屏</string>
+    <string name="action_menu">菜单</string>
+    <string name="action_ime">切换输入法</string>
+    <string name="action_kill">清除进程</string>
+    <string name="action_lastapp">上一个任务</string>
+    <string name="action_power">电源键</string>
+    <string name="action_notifications">通知栏</string>
+    <string name="action_assist">寻找 (Google Now)</string>
+    <string name="action_clockoptions">日期及时间</string>
+    <string name="action_voiceassist">语音寻找</string>
+    <string name="action_torch">手电筒</string>
+    <string name="action_silent">铃声/静音</string>
+    <string name="action_vib">铃声/手振</string>
+    <string name="action_silent_vib">铃声/振动/静音</string>
+    <string name="action_event">事件</string>
+    <string name="action_today">本日活动</string>
+    <string name="action_alarm">闹钟</string>
+    <string name="action_null">空白</string>
+    <string name="action_app">自定义</string>
+    <string name="action_unlock">解锁</string>
+    <string name="action_camera">相机</string>
+    <string name="action_widgets">导航栏工具</string>
+    <string name="action_app_window">软件视窗列</string>
+    <string name="action_ribbon">AOKP彩带</string>
+    <string name="action_qs">磁贴/捷径开关</string>
+    <string name="action_quicksettings">磁贴/捷径开关</string>
+
+    <!-- Title of an application permission that lets an application view/edit revoked permissions. -->
+    <string name="permlab_revokePermissions">允许查看及编辑授权权限,一般程序不予使用.</string>
+    <!-- Description of an application permission that lets lets an application view/edit revoked permissions. -->
+    <string name="permdesc_revokePermissions">允许注销读写权限,一般程序不予使用.</string>
+
+    <string name="aerr_revoked_application">程序名称:<xliff:g id="application">%1$s</xliff:g>
+        (进程: <xliff:g id="process">%2$s</xliff:g>) 在非预警情况下关闭.\n警告!\n此软件其中一个或若干权限被注销而引起操作不正常,请重新授权有关权限重试.</string>
+    <!-- Text of the alert that is displayed when an application has crashed. -->
+    <string name="aerr_revoked_process">进程:<xliff:g id="process">%1$s</xliff:g> 在非预警情况下关闭.\n警告!\n此软件其中一个或若干权限被注销而引起操作不正常,请重新授权有关权限重试.</string>
+    <!-- Title of the alert when an application is not responding. -->
+
+    <!-- Button allowing the user reset the revoked permissions for application which has encountered an error. -->
+    <string name="reset_perms">重置授权资讯</string>
+
+
+    <!-- Animation Strings -->
+    <string name="animation_fade">淡入淡出</string>
+    <string name="animation_slide_right">右侧滑动</string>
+    <string name="animation_slide_left">左侧滑动</string>
+    <string name="animation_slide_right_no_fade">右侧滑动 (没有动画)</string>
+    <string name="animation_slide_left_no_fade">左侧滑动 (没有动画)</string>
+    <string name="animation_slide_up">下方滑动</string>
+    <string name="animation_slide_down">上方滑动</string>
+    <string name="animation_default">默认</string>
+    <string name="animation_translucent">半透明</string>
+    <string name="animation_grow_shrink">上方渐进</string>
+    <string name="animation_grow_shrink_center">置中渐进</string>
+    <string name="animation_grow_shrink_bottom">下方渐进</string>
+    <string name="animation_grow_shrink_left">左方渐进</string>
+    <string name="animation_grow_shrink_right">右方渐进</string>
+
+    <!-- Privacy Guard -->
+    <string name="permlab_changePrivacyGuardState">启用或关闭私隐防护</string>
+    <string name="permdesc_changePrivacyGuardState">启用或关闭私隐防护, 应用程式将无法取得联络人，短信及通讯记录等个人信息纪录.</string>
+    <string name="privacy_guard_notification">私隐防护执行中</string>
+    <string name="privacy_guard_notification_detail"><xliff:g id="app">%1$s</xliff:g> 将无法获取任何私隐信息</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_interceptSmsSent">拦截所有送出的短信</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_interceptSmsSent">允许程序拦截发送短信，可以防止恶意应用程序发送短信。</string>
+
+    <!-- The title of the profile picker dialog. -->
+    <string name="profile_picker_title">情景模式</string>
+
+    <!-- The item label for the no profile selection item. -->
+    <string name="profile_none">未设置</string>
+
+    <!-- Gesture Unlock -->
+    <string name="lockscreen_gesture_instructions">请提供手势解锁图案</string>
+    <string name="lockscreen_gesture_correct">正确!</string>
+    <string name="lockscreen_gesture_wrong">错误，请重新输入</string>
+    <string name="keyguard_accessibility_gesture_unlock">手势解锁</string>
+    <string name="keyguard_accessibility_gesture_area">手势输入区</string>
+    <string name="kg_gesture_instructions">划出解锁手势</string>
+    <string name="kg_too_many_failed_gesture_attempts_dialog_message">
+        你已输入错误图案 <xliff:g id="number">%d</xliff:g> 次.
+        \n\n请于 <xliff:g id="number">%d</xliff:g> 秒后重试.
+    </string>
+
+    <string name="permlab_cancelNotifications">取消应用程序通知</string>
+    <string name="permdesc_cancelNotifications">允许应用程序取消由其他应用程序创建的通知。</string>
+</resources>

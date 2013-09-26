@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="cancel_target_label">取消</string>
+
+    <string name="menu_preferences">Trebuchet 設定</string>
+
+    <string name="menu_apps_sort_title">名稱</string>
+
+    <string name="menu_apps_sort_install_date">安裝日期</string>
+
+    <string name="all_apps_sort_cling_title">整理您的程式</string>
+    <string name="all_apps_sort_cling_add_item">按住應用程式標簽 &amp; 選取您的排列方式。</string>
+
+    <!--             -->
+    <!-- Preferences -->
+    <!--             -->
+    <string name="preferences_title">啟動器選項</string>
+    <!-- UI -->
+    <string name="preferences_interface_title">介面</string>
+    <!-- Application -->
+    <string name="preferences_application_title">應用</string>
+
+    <!-- UI -->
+    <!-- Homescreen -->
+    <string name="preferences_interface_homescreen_title">主螢幕</string>
+    <string name="preferences_interface_homescreen_general_category">常規</string>
+    <string name="preferences_interface_homescreen_general_screens_title">主螢幕數量</string>
+    <string name="preferences_interface_homescreen_general_screens_summary">主螢幕上的頁面數量</string>
+    <string name="preferences_interface_homescreen_general_default_screen_title">預設主螢幕</string>
+    <string name="preferences_interface_homescreen_general_default_screen_summary">選取預設的主螢幕</string>
+    <string name="preferences_interface_homescreen_general_search_title">搜索欄</string>
+    <string name="preferences_interface_homescreen_general_grid_title">網格大小</string>
+    <string name="preferences_interface_homescreen_general_grid_summary">選取主螢幕上的行/欄數</string>
+    <string name="preferences_interface_homescreen_general_grid_rows_title">行</string>
+    <string name="preferences_interface_homescreen_general_grid_columns_title">列</string>
+    <string name="preferences_interface_homescreen_general_search_summary">啟用搜索欄</string>
+<!--    <string name="preferences_interface_homescreen_general_resize_any_widget_title">調整任何小部件的大小</string>
+    <string name="preferences_interface_homescreen_general_resize_any_widget_summary">允許小部件的大小調整</string> -->
+    <string name="preferences_interface_homescreen_general_hide_icon_labels_title">隱藏圖像標簽</string>
+    <string name="preferences_interface_homescreen_general_hide_icon_labels_summary">隱藏在主螢幕上圖像的標簽</string>
+    <string name="preferences_interface_homescreen_scrolling_category">捲動</string>
+    <string name="preferences_interface_homescreen_scrolling_scroll_wallpaper_title">捲動壁紙</string>
+    <string name="preferences_interface_homescreen_scrolling_scroll_wallpaper_summary">主螢幕捲動時壁紙將會一起捲動</string>
+    <string name="preferences_interface_homescreen_indicator_category">指示器</string>
+    <string name="preferences_interface_homescreen_indicator_enable_title">啟用頁面指示器</string>
+    <string name="preferences_interface_homescreen_indicator_enable_summary">在螢幕的底部察看目前頁面的指示器</string>
+    <string name="preferences_interface_homescreen_indicator_fade_title">淡出指示器</string>
+    <string name="preferences_interface_homescreen_indicator_fade_summary">改變主螢幕后將淡出指示器</string>
+
+    <!-- Drawer -->
+    <string name="preferences_interface_drawer_title">程式列表</string>
+    <string name="preferences_interface_drawer_widgets_category">小部件</string>
+    <string name="preferences_interface_drawer_widgets_join_apps_title">與應用程式關聯</string>
+    <string name="preferences_interface_drawer_widgets_join_apps_summary">從應用程式功能表直接滑動到小部件功能表</string>
+    <string name="preferences_interface_drawer_indicator_category">指示器</string>
+    <string name="preferences_interface_drawer_indicator_enable_title">啟用頁面指示器</string>
+    <string name="preferences_interface_drawer_indicator_enable_summary">在螢幕的底部察看目前頁面的指示器</string>
+    <string name="preferences_interface_drawer_indicator_fade_title">淡出指示器</string>
+    <string name="preferences_interface_drawer_indicator_fade_summary">改變頁面后將淡出指示器</string>
+
+    <!-- Dock -->
+    <string name="preferences_interface_dock_title">程式托盤</string>
+
+    <!-- Icons -->
+    <string name="preferences_interface_icons_title">圖像</string>
+
+    <!-- General -->
+    <string name="preferences_interface_general_title">常規</string>
+    <string name="preferences_interface_general_orientation_title">自動旋轉螢幕</string>
+
+	<string name="preferences_interface_homescreen_scrolling_wallpaper_hack_title">壁紙破解</string>
+    <string name="preferences_interface_homescreen_scrolling_wallpaper_hack_summary">改變圖層設置在使用靜態壁紙時候提高滑動流暢度</string>
+
+	<string name="preferences_interface_homescreen_scrolling_show_outlines_title">顯示頁面外框線</string>
+	<string name="preferences_interface_homescreen_scrolling_show_outlines_summary">滑動時顯示頁面外框線</string>
+
+	<string name="preferences_interface_homescreen_scrolling_fade_adjacent_screens_title">使用透明特效</string>
+	<string name="preferences_interface_homescreen_scrolling_fade_adjacent_screens_summary">滑動時淡化相鄰頁面（關閉此項或能作出更平滑切換）</string>
+
+    <string name="preferences_interface_homescreen_general_stretch_screens_title">拉伸屏幕</string>
+    <string name="preferences_interface_homescreen_general_stretch_screens_summary">拉伸屏幕填滿畫面</string>
+
+    <string name="preferences_interface_homescreen_scrolling_transition_effect_title">轉場特效</string>
+    <string name="preferences_interface_homescreen_scrolling_transition_effect_summary">捲動主頁動畫效果</string>
+
+    <string name="preferences_interface_drawer_orientation_title">方向</string>
+    <string name="preferences_interface_drawer_orientation_summary">選擇程式列表捲動方向</string>
+
+    <string name="preferences_interface_drawer_scrolling_category">捲動</string>
+    <string name="preferences_interface_drawer_scrolling_transition_effect_title">轉場特效</string>
+    <string name="preferences_interface_drawer_scrolling_transition_effect_summary">捲動頁面動畫效果</string>
+    <string name="preferences_interface_drawer_scrolling_fade_adjacent_screens_title">使用透明特效</string>
+    <string name="preferences_interface_drawer_scrolling_fade_adjacent_screens_summary">滑動時淡化相鄰頁面（關閉此項或能作出更平滑切換）</string>
+
+<!--    <string name="preferences_interface_homescreen_indicator_background_title">顯示分隔線背景</string>
+    <string name="preferences_interface_homescreen_indicator_background_summary">顯示分隔線背後物件</string> -->
+
+    <string name="preferences_interface_general_fullscreen_title">隱藏狀態欄</string>
+    <string name="preferences_interface_general_fullscreen_summary">隱藏狀態欄擴屏桌面</string>
+    <string name="preferences_interface_homescreen_summary">屏幕與壁紙</string>
+    <string name="preferences_interface_drawer_summary">程式與小工具</string>
+    <string name="preferences_interface_dock_divider_title">顯示托盤分隔器</string>
+    <string name="preferences_interface_dock_divider_summary">顯示托盤與桌面的分隔線</string>
+    
+    <string name="preferences_interface_homescreen_scrolling_wallpaper_size_title">壁紙大小</string>
+    <string name="preferences_interface_homescreen_scrolling_wallpaper_size_summary">依頁面數設置壁紙長度</string>
+
+    <string name="preferences_interface_homescreen_indicator_position_title">指示器位置</string>
+    <string name="preferences_interface_homescreen_indicator_position_summary">選擇指示器顯示位置</string>
+
+    <string name="preferences_interface_drawer_indicator_position_title">指示器位置</string>
+    <string name="preferences_interface_drawer_indicator_position_summary">選擇指示器顯示位置</string>
+
+    <!-- Noun, menu item used to show system apps -->
+    <string name="menu_apps_filter_system">系統程序</string>
+    <string name="menu_apps_filter_downloaded">已下載</string>
+    <string name="menu_hidden_apps_delete">重置</string>
+
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">隱藏程序</string>
+    <string name="preferences_interface_drawer_hidden_apps_title">隱藏程序</string>
+    <string name="preferences_interface_drawer_hidden_apps_summary">從程序列表中隱藏選定程序</string>
+
+    <string name="edit_target_label">編輯</string>
+
+<!--    <string name="group_actions">動作</string>
+    <string name="preferences_interface_homescreen_general_screen_padding_vertical_title">垂直間距</string>
+    <string name="preferences_interface_homescreen_general_screen_padding_vertical_summary">設定主頁垂直間距</string>
+    <string name="preferences_interface_homescreen_general_screen_padding_horizontal_title">水平填充</string>
+    <string name="preferences_interface_homescreen_general_screen_padding_horizontal_summary">設定主頁水平填充間距</string>
+ -->
+    <string name="menu">菜單</string>
+
+    <string name="preferences_interface_dock_pages_title">程式托盤數目</string>
+    <string name="preferences_interface_dock_pages_summary">程式托盤主頁數目</string>
+    <string name="preferences_interface_dock_default_page_title">默認主頁</string>
+    <string name="preferences_interface_dock_default_page_summary">選擇默認顯示的主頁</string>
+    <string name="preferences_interface_dock_icons_title">圖示</string>
+    <string name="preferences_interface_dock_icons_summary">每頁托盤圖示的數目</string>
+
+    <string name="preferences_interface_dock_icon_scale_title">變更圖示比例</string>
+    <string name="preferences_interface_dock_icon_scale_summary">改變圖示大小比例 (由 80-100% )</string>
+
+    <!-- Effects -->
+    <string name="effects_standard">標准</string>
+    <string name="effects_tablet">平板</string>
+    <string name="effects_zoom_in">放大</string>
+    <string name="effects_zoom_out">縮小</string>
+    <string name="effects_rotate_up">向上轉動</string>
+    <string name="effects_rotate_down">向下轉動</string>
+    <string name="effects_cylinder_in">圓柱凹入</string>
+    <string name="effects_cylinder_out">圓柱凸出</string>
+    <string name="effects_cube_in">立方凹入</string>
+    <string name="effects_cube_out">立方凸出</string>
+    <string name="effects_spin">旋轉</string>
+    <string name="effects_flip">翻動</string>
+    <string name="effects_stack">堆疊</string>
+    <string name="effects_accordion">手風琴</string>
+
+</resources>
