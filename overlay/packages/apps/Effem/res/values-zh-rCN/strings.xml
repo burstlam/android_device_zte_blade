@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Effem收音机</string>
+    <string name="band_select">选择地区／频谱</string>
+    <string name="band_us">美洲</string>
+    <string name="band_eu">欧洲</string>
+    <string name="band_ja">日本</string>
+    <string name="band_ch">中国</string>
+    <string name="station_select">首选</string>
+    <string name="output_select">音频输出</string>
+    <string name="output_select_default">自动</string>
+    <string name="output_select_loudspeaker">扩音器</string>
+    <string name="fmradio">FM 广播</string>
+    <string name="dashes">- - - -</string>
+    <string name="no_rds">没有RDS</string>
+    <string name="no_stations">未存储任何频道</string>
+    <string name="scan_error">不能扫描频道</string>
+    <string name="fm_start_error">不能启用接收组件</string>
+    <string name="seek_error">寻找失败</string>
+    <string name="resume_error">不能续播</string>
+    <string name="pause_error">不能暂停</string>
+    <string name="busy_error">系统繁忙中, 请稍后再试</string>
+    <string name="no_headset_error">请先连接耳机</string>
+    <string-array name="pty_names">
+        <item>未分类</item>
+        <item>新闻</item>
+        <item>时事</item>
+        <item>信息</item>
+        <item>体育</item>
+        <item>教育</item>
+        <item>广播剧</item>
+        <item>文化</item>
+        <item>科学</item>
+        <item>综合</item>
+        <item>流行</item>
+        <item>摇滚</item>
+        <item>轻松</item>
+        <item>近代古典</item>
+        <item>古典</item>
+        <item>其它</item>
+        <item>天气</item>
+        <item>财经</item>
+        <item>孩子</item>
+        <item>社会时事</item>
+        <item>宗教</item>
+        <item>听众来电</item>
+        <item>旅游</item>
+        <item>消闲</item>
+        <item>爵士乐</item>
+        <item>国家</item>
+        <item>环球</item>
+        <item>怀旧</item>
+        <item>乡村</item>
+        <item>纪录</item>
+        <item>响闹测试</item>
+        <item>响闹</item>
+    </string-array>
+</resources>
